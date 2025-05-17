@@ -1,0 +1,13 @@
+def moveZeroes(nums):
+    nums1=[]
+    nums2=[]
+    nums3=[]
+    for i in nums:
+        if i==0:
+            nums1.append(i)
+        else:
+            nums2.append(i)
+    nums2.sort()
+    nums3=nums2.append(nums1)
+    return nums3
+moveZeroes([0,1,0,3,12])
