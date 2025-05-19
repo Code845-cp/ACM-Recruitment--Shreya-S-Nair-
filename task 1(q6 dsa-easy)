@@ -1,0 +1,7 @@
+def searchInSorted(arr, k):
+   for i in arr:
+       if k==i:
+           return "true"
+       else:
+           return "false"
+searchInSorted([1, 2, 4, 5, 6],3)
