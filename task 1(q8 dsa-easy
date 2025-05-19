@@ -1,0 +1,8 @@
+def rotateArrayByOne(nums):
+    num1=[]
+    n=nums[0]
+    nums.remove(n)
+    num1=num1+nums
+    num1.append(n)
+    return num1
+rotateArrayByOne([1, 2, 3, 4, 5])
